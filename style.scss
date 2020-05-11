@@ -19,9 +19,7 @@ img {
 
 }
 
-h1 {
-    padding-top: 1em;
-}
+
 
 .profile p{
     font-size: 1em;
@@ -67,3 +65,10 @@ a {
 }
 
 
+.card {
+    background-color: #55585c1e;
+    &-title {
+        color: #343a40;
+    }
+    
+}
