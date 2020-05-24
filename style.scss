@@ -30,6 +30,7 @@ svg {
 header {
     background-color: #4a5057;
 }
+
 a {
     color: rgba(255,255,255,.5);
     &:hover {
@@ -67,10 +68,19 @@ a {
 .card {
     background-color: #55585c1e;
     &-title {
-        color: #343a40;
-    }
-    
+        color: $mainColor;
+    }    
 }
+
+h5 a {
+    color: $mainColor;
+    &:hover {
+        color: black;
+        text-decoration: underline;
+    }
+}
+  
+
 @media (max-width: 767px) {
     .timeline {
         margin-left: 0;
