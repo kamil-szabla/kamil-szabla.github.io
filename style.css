@@ -81,6 +81,18 @@ h5 a:hover {
   text-decoration: underline;
 }
 
+.animation {
+  -webkit-transition: -webkit-transform 450ms 100ms;
+  transition: -webkit-transform 450ms 100ms;
+  transition: transform 450ms 100ms;
+  transition: transform 450ms 100ms, -webkit-transform 450ms 100ms;
+}
+
+.animation:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
 @media (max-width: 767px) {
   .timeline {
     margin-left: 0;
@@ -94,5 +106,18 @@ h5 a:hover {
   .item {
     text-align: center;
   }
+}
+
+.btn {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: all 600ms;
+  transition: all 600ms;
+}
+
+.btn:hover {
+  background-color: #515a64;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 /*# sourceMappingURL=style.css.map */

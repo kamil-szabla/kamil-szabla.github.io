@@ -79,6 +79,14 @@ h5 a {
         text-decoration: underline;
     }
 }
+
+.animation {
+    transition: transform 450ms 100ms;
+    &:hover {
+        transform: scale(1.2);
+        
+    }
+}
   
 
 @media (max-width: 767px) {
@@ -97,3 +105,12 @@ h5 a {
     }
     
 }
+.btn {
+    transform: scale(1);
+    transition: all 600ms;
+    &:hover {
+      background-color: #515a64;
+      transform: scale(1.2);
+        
+    }
+  }
